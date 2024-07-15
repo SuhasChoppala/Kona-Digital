@@ -1122,11 +1122,8 @@
     .f-img {
         position: absolute;
         right: 1rem;
-<<<<<<< HEAD
         top: 480rem;
-=======
         top: 490rem;
->>>>>>> 58a3bc166c339023765124a3f53d3fef8850e2f5
         width: 169px;
     }
 
@@ -1171,13 +1168,10 @@
 
     .blink-parent #blink-child-4 {
         position: absolute;
-<<<<<<< HEAD
         top: 20rem;
         right: 6rem;
-=======
         top: 22rem;
         right: 10rem;
->>>>>>> 58a3bc166c339023765124a3f53d3fef8850e2f5
     }
 
 }
@@ -1377,7 +1371,6 @@
         overflow: hidden;
     }
 
-<<<<<<< HEAD
     .footer .col-3 {
         width: 100%;
     }
@@ -1389,9 +1382,6 @@
     .modal-body {
         margin-left: 20px;
     }
-
-=======
->>>>>>> 58a3bc166c339023765124a3f53d3fef8850e2f5
 }
 
 
@@ -1509,7 +1499,6 @@
         gap: 0rem;
     }
 
-<<<<<<< HEAD
     .modal-dialog {
         width: 23rem;
     }
@@ -1527,9 +1516,6 @@
         border: 1px solid #cbd6e2;
         border-radius: 3px;
     }
-
-=======
->>>>>>> 58a3bc166c339023765124a3f53d3fef8850e2f5
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1541,10 +1527,6 @@
         box-sizing: border-box;
     }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 58a3bc166c339023765124a3f53d3fef8850e2f5
     html,
     body {
         width: 100%;
@@ -1571,11 +1553,7 @@
     }
 
     .navbar-main {
-<<<<<<< HEAD
         gap: 10px;
-=======
-        gap: px;
->>>>>>> 58a3bc166c339023765124a3f53d3fef8850e2f5
     }
 
     .div-6 {
@@ -2003,7 +1981,6 @@
         gap: 30px;
     }
 }
-<<<<<<< HEAD
 
 @media only screen and (min-width: 1800px) {
     .div-6 {
@@ -2028,5 +2005,3 @@
         margin-left: 35rem;
     }
 }
-=======
->>>>>>> 58a3bc166c339023765124a3f53d3fef8850e2f5
