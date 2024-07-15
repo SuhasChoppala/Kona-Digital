@@ -111,6 +111,7 @@
         display: flex;
         flex-direction: column;
         padding-top: 50px;
+        column-gap: 20px;
     }
 
     .service-info {
@@ -131,6 +132,8 @@
 
     .services2-div img {
         width: 400px;
+        padding: 0px;
+        margin: 0;
     }
 
     .services2-div {
@@ -142,6 +145,8 @@
 
     .services2-img {
         text-align: center;
+        margin: 0;
+        padding: 0;
     }
 
     .services-content {
@@ -159,6 +164,8 @@
 
     .services3-img-div {
         text-align: center;
+        margin: 0;
+        padding: 0;
     }
 
     .services3-img-div img {
@@ -173,7 +180,7 @@
 
     .f-img {
         position: absolute;
-        top: 460rem;
+        top: 470rem;
     }
 
     .blur-pink-sales {
@@ -181,6 +188,11 @@
         left: 0;
         top: 330rem;
         z-index: 11;
+    }
+
+    .connect-div {
+        padding-top: 0px;
+        margin-top: 0px;
     }
 }
 

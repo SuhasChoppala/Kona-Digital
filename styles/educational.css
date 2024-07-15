@@ -175,6 +175,7 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
     .credit-info {
         padding: 0px 0px 0px 0px;
     }
@@ -184,8 +185,9 @@
     }
 
     .credit-info-img {
-        width: 300px;
+        width: 280px;
         margin-top: 30px;
+        margin-left: 0px;
     }
 
     .credit-info .bt-2 {
@@ -277,6 +279,42 @@
     .f-img {
         position: absolute;
         top: 320rem;
+    }
+
+    .connect-row {
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-div {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .what-div img {
+        width: 30px;
+    }
+
+    /* .what-div h6 {
+        font-size: 14px;
+    } */
+
+    .what-div {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer {
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    .f-img {
+        position: absolute;
+        top: 300rem;
     }
 }
 

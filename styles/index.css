@@ -807,6 +807,47 @@
     z-index: 1000;
 }
 
+@media only screen and (max-width: 400px) {
+    #km-btn {
+        padding: 8px 25px;
+        border: 2px solid rgb(0, 12, 96);
+        background-color: white;
+        color: rgb(0, 12, 96);
+        border-radius: 10px;
+        /* margin-top: 2rem; */
+    }
+
+    #ad-btn {
+        padding: 10px 24px;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        background: linear-gradient(to right, rgb(84, 58, 193), rgb(164, 41, 215));
+        margin-left: 11px;
+        margin-top: 12px;
+    }
+
+    .blink-parent #blink-child-4 {
+        position: absolute;
+        top: 50px;
+        right: 1rem;
+    }
+
+    .connect-row {
+        width: 100%;
+        margin: 0;
+    }
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer .col {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
 
 /* media queries */
 /* Extra small devices (phones, 600px and down) */
@@ -1095,6 +1136,7 @@
         /* Prevent overflow */
         display: block;
         /* Remove default image spacing */
+        display: none;
     }
 
     .q-a {
@@ -1170,8 +1212,11 @@
         position: absolute;
         top: 20rem;
         right: 6rem;
-        top: 22rem;
-        right: 10rem;
+    }
+
+    .connect-row {
+        width: 100%;
+        margin: 0;
     }
 
 }
