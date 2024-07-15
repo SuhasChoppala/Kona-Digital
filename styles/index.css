@@ -924,7 +924,7 @@
 
     .div-1 {
         padding: 20px;
-        padding-top: 120px;
+        padding-top: 80px;
         padding-bottom: 0px;
     }
 
@@ -1223,25 +1223,25 @@
 
     .blink-parent #blink-child-1 {
         position: absolute;
-        top: 8rem;
+        top: 6rem;
         left: 6rem;
     }
 
     .blink-parent #blink-child-2 {
         position: absolute;
-        top: 14rem;
+        top: 12rem;
         left: 2rem;
     }
 
     .blink-parent #blink-child-3 {
         position: absolute;
-        top: 27rem;
+        top: 24rem;
         right: 4rem;
     }
 
     .blink-parent #blink-child-4 {
         position: absolute;
-        top: 19rem;
+        top: 17rem;
         right: 4rem;
     }
 
