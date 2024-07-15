@@ -924,7 +924,8 @@
 
     .div-1 {
         padding: 20px;
-        padding-top: 120px;
+        padding-top: 100px;
+        padding-bottom: 0px;
     }
 
     .div-1 .head {
