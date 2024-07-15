@@ -762,11 +762,11 @@
 }
 
 .modal-dialog {
-    width: 23rem;
+    /* width: 23rem; */
 }
 
 .modal-body {
-    padding: 20px 0px 30px 30px;
+    /* padding: 20px 0px 30px 30px; */
     background-color: white;
 }
 
@@ -780,7 +780,7 @@
 }
 
 .submit-btn {
-    padding: 6px 124px;
+    /* padding: 6px 124px; */
     background: linear-gradient(to right, rgb(84, 58, 193), rgb(164, 41, 215));
     color: #fff;
 }
