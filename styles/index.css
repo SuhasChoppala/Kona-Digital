@@ -1219,6 +1219,42 @@
         margin: 0;
     }
 
+
+    .inputs {
+        padding: 8px 50px 8px 20px;
+        margin-bottom: 14px;
+        background-color: #f5f8fa;
+        color: #33475b;
+        border: 1px solid #cbd6e2;
+        border-radius: 3px;
+    }
+
+    .modal-header {
+        background-image: linear-gradient(to right, #ff9b71 0%, #5a39c2 60%, #9e2ad5 100%);
+        color: #fff;
+    }
+
+    .modal-header .btn-close {
+        color: #fff;
+    }
+
+    .modal-dialog {
+        justify-content: center;
+        text-align: center;
+        width: 21rem;
+    }
+
+    .modal-body {
+        padding: 20px 0px 30px 30px;
+        background-color: white;
+    }
+
+    .submit-btn {
+        padding: 6px 108px;
+        background: linear-gradient(to right, rgb(84, 58, 193), rgb(164, 41, 215));
+        color: #fff;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
