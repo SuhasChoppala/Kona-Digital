@@ -4,6 +4,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.carousel-1 {
+    display: block;
+    /* Displayed by default */
+}
+
+.carousel-2 {
+    display: none;
+    /* Hidden by default */
+}
+
 .navbar-main {
     gap: 15px;
 }
@@ -83,20 +93,104 @@
 
 .blink-parent #blink-child-1 {
     position: absolute;
-    top: 300%;
-    left: 33%;
+    top: 8rem;
+    left: 40rem;
+    animation-name: blink-1;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
 }
 
 .blink-parent #blink-child-2 {
     position: absolute;
-    top: 450%;
-    left: 21%;
+    top: 13rem;
+    left: 24rem;
+    animation-name: blink-2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
 }
 
 .blink-parent #blink-child-3 {
     position: absolute;
-    top: 900%;
-    right: 21%;
+    top: 15.5rem;
+    right: 35rem;
+    animation-name: blink-2;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+.blink-parent #blink-child-4 {
+    position: absolute;
+    top: 25rem;
+    right: 40rem;
+    animation-name: blink-2;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes blink-1 {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes blink-2 {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes blink-3 {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes blink-4 {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
 }
 
 
@@ -117,7 +211,7 @@
     background-color: white;
     color: rgb(0, 12, 96);
     border-radius: 10px;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 
 #km-btn:hover {
@@ -132,6 +226,7 @@
     color: white;
     background: linear-gradient(to right, rgb(84, 58, 193), rgb(164, 41, 215));
     margin-left: 18px;
+    /* margin-top: 22px; */
 }
 
 #ad-btn:hover {
@@ -497,10 +592,6 @@
     animation-timing-function: ease;
 }
 
-.hy-div .rope img {
-    width: 118.8rem;
-    height: auto;
-}
 
 @keyframes ropebounce {
     0% {
@@ -532,6 +623,12 @@
 }
 
 .hy-div .row img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+
+.b-div .row img {
     width: 100%;
     max-width: 550px;
     height: auto;
@@ -645,7 +742,7 @@
 .f-img {
     position: absolute;
     right: 1rem;
-    top: 326.3rem;
+    top: 324rem;
     width: 169px;
 }
 
@@ -670,6 +767,7 @@
 
 .modal-body {
     padding: 20px 0px 30px 30px;
+    background-color: white;
 }
 
 .inputs {
@@ -707,4 +805,1203 @@
     bottom: 20px;
     right: 20px;
     z-index: 1000;
+}
+
+
+/* media queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar .navbar-toggler {
+        margin-left: -14px;
+    }
+
+    .navbar-brand {
+        margin-left: 0rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .navbar {
+        padding: 0px 0px;
+        box-shadow: rgba(221, 221, 221, 0.45) 0px 0px 20px 0px;
+    }
+
+    .ui-items {
+        gap: 0px;
+    }
+
+    .ui-div {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .div-1 {
+        padding: 20px;
+    }
+
+    .div-1 .head {
+        font-size: 2.5rem;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .know-more-card {
+        width: 22rem;
+        padding: 10px;
+        margin-top: 5rem;
+        column-gap: 20px;
+    }
+
+    #know-more-card-2 {
+        position: relative;
+        top: -12rem;
+        z-index: 99;
+        border-radius: 12px;
+        width: 22rem;
+    }
+
+    #know-more-card-1 {
+        position: relative;
+        top: -30;
+        z-index: 99;
+        border-radius: 12px;
+        width: 22rem;
+    }
+
+    #know-more-card-3 {
+        position: relative;
+        top: 0;
+        z-index: 99;
+        border-radius: 12px;
+        margin-top: -12rem;
+        width: 22rem;
+    }
+
+    .hero-img img {
+        height: 20rem;
+    }
+
+    .div-6 .row-1 {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .each-box {
+        /* margin-left: 4rem; */
+        /* max-width: fit-content; */
+        width: 25rem;
+    }
+
+    .div-6 .row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .each-box {
+        padding: 20px 20px;
+        border: none;
+        box-shadow: 0 0 30px #0000000a;
+        margin-top: 20px;
+    }
+
+    .div-6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        padding: 0px;
+    }
+
+    /* Carousel 2 CSS */
+
+    #carouselExampleInterval {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-image: url('https://kona-digital.com/images/mapimg.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .carousel-item {
+        transition: transform 0.6s ease-in-out;
+    }
+
+    .carousel-item p {
+        margin-bottom: 10px;
+    }
+
+    .carousel-item img {
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 50%;
+    }
+
+    .carousel-indicators {
+        position: relative;
+        bottom: auto;
+        margin-top: 2rem;
+        left: 35%;
+        transform: translateX(-50%);
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .carousel-indicators button {
+        background-color: #ccc;
+        border: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .carousel-indicators button.active {
+        background-color: #000;
+    }
+
+    .corousel-card {
+        width: 50rem;
+        /* Adjust width as needed */
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.65);
+        box-shadow: rgba(204, 204, 204, 0.6) 0px 3px 10px 0px;
+    }
+
+    .corousel-row {
+        gap: 3rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    .first-row {
+        border-bottom: 1px solid rgb(224, 224, 224);
+    }
+
+    .second-row {
+        padding: 12px 0px;
+    }
+
+    .second-row img {
+        width: 100%;
+    }
+
+    .c-name,
+    .c-role {
+        font-size: 16px;
+        font-weight: 700;
+        color: rgb(33, 37, 41);
+    }
+
+    .c-role {
+        font-weight: 400;
+    }
+
+    .info-row-c {
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+
+    .info-row-c h5 {
+        line-height: 1;
+    }
+
+    #bt-1 {
+        background-color: #ccc;
+        border: none;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    #bt-1.active {
+        background-color: #000;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+
+    .f-img {
+        top: 600rem;
+    }
+
+    .b-div,
+    .hy-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .b-div .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .hy-div .row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .b-div img,
+    .hy-div img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .b-div .col-sm-6,
+    .hy-div .col-sm-6 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-width: 100%;
+        /* Prevent overflow */
+        display: block;
+        /* Remove default image spacing */
+    }
+
+    .q-a {
+        padding: 1rem 2rem;
+        z-index: -1;
+    }
+
+    .blur-pink {
+        z-index: 11;
+    }
+
+    .connect-row {
+        padding: 5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .connect-row .col-sm-6 img {
+        width: 30rem;
+        left: -100px;
+    }
+
+    .f-img {
+        position: absolute;
+        right: 1rem;
+        top: 480rem;
+        width: 169px;
+    }
+
+    .footer {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer .col-3 {
+        width: 100%;
+    }
+
+    .footer .col-3 p {
+        padding: 0;
+        font-size: 9px;
+        overflow: hidden;
+    }
+
+    .blink-parent #blink-child-1 {
+        position: absolute;
+        top: 1rem;
+        left: 6rem;
+    }
+
+    .blink-parent #blink-child-2 {
+        position: absolute;
+        top: 8rem;
+        left: 3rem;
+    }
+
+    .blink-parent #blink-child-3 {
+        position: absolute;
+        top: 13rem;
+        right: 5rem;
+    }
+
+    .blink-parent #blink-child-4 {
+        position: absolute;
+        top: 20rem;
+        right: 6rem;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 767px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar .navbar-toggler {
+        margin-left: 8rem;
+    }
+
+    .navbar-brand {
+        margin-left: 0rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .navbar {
+        padding: 0px 0px;
+        box-shadow: rgba(221, 221, 221, 0.45) 0px 0px 20px 0px;
+    }
+
+    .ui-items {
+        gap: 0px;
+    }
+
+    .ui-div {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .know-more-card {
+        width: 25rem;
+        padding: 10px;
+        margin-top: 5rem;
+        column-gap: 20px;
+    }
+
+    #know-more-card-2 {
+        position: relative;
+        top: 0;
+        z-index: 99;
+        border-radius: 12px;
+    }
+
+    #know-more-card-1 {
+        position: relative;
+        top: 0;
+        z-index: 99;
+        border-radius: 12px;
+    }
+
+    #know-more-card-3 {
+        position: relative;
+        top: 0;
+        z-index: 99;
+        border-radius: 12px;
+    }
+
+    .div-6 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .div-6 .row-1 {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        text-align: center;
+    }
+
+    .each-box {
+        margin-left: 4rem;
+        max-width: fit-content;
+    }
+
+    .div-6 .row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .each-box {
+        padding: 20px 20px;
+        border: none;
+        box-shadow: 0 0 30px #0000000a;
+        margin-top: 20px;
+    }
+
+    .corousel-card {
+        width: 16rem;
+    }
+
+    .b-div,
+    .hy-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .b-div .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .hy-div .row {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .b-div img,
+    .hy-div img {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .b-div .col-sm-6,
+    .hy-div .col-sm-6 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .image-container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-width: 100%;
+        /* Prevent overflow */
+        display: block;
+        /* Remove default image spacing */
+    }
+
+    .q-a {
+        padding: 1rem 2rem;
+        z-index: -1;
+    }
+
+
+    .blur-pink {
+        z-index: 11;
+    }
+
+    .connect-row {
+        padding: 3rem 1rem;
+    }
+
+    .f-img {
+        position: absolute;
+        right: 1rem;
+        top: 490rem;
+        width: 169px;
+    }
+
+    .footer {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .footer .col-3 p {
+        padding: 0;
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+    .footer .col-3 {
+        width: 100%;
+    }
+
+    .modal-dialog {
+        width: 23rem;
+    }
+
+    .modal-body {
+        margin-left: 20px;
+    }
+
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* .navbar-main {
+        gap: 25rem;
+    } */
+
+    .navbar .navbar-toggler {
+        margin-left: 23rem;
+    }
+
+    .navbar {
+        padding: 0px 0px;
+        box-shadow: rgba(221, 221, 221, 0.45) 0px 0px 20px 0px;
+    }
+
+    .navbar-brand {
+        margin-left: 0rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .ui-items {
+        gap: 0px;
+    }
+
+    .ui-items .dropdown-menu .dropdown-item:hover {
+        color: rgb(164, 41, 215);
+        cursor: pointer;
+    }
+
+    .ui-items .nav-item .nav-link:hover {
+        color: rgb(164, 41, 215);
+    }
+
+    .ui-div {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .blink-parent #blink-child-1 {
+        position: absolute;
+        top: 7.5rem;
+        left: 16rem;
+    }
+
+    .blink-parent #blink-child-2 {
+        position: absolute;
+        top: 14rem;
+        left: 3rem;
+    }
+
+    .blink-parent #blink-child-3 {
+        position: absolute;
+        top: 15.5rem;
+        right: 14rem;
+    }
+
+    .blink-parent #blink-child-4 {
+        position: absolute;
+        top: 25rem;
+        right: 18rem;
+    }
+
+    .cards {
+        margin-top: 10rem;
+    }
+
+    .div-6 {
+        margin-left: auto;
+    }
+
+    .each-box {
+        text-align: center;
+        padding: 30px 90px;
+        width: 22rem;
+        margin-left: 2rem;
+    }
+
+    .corousel-card {
+        width: 20rem;
+    }
+
+    .q-a {
+        padding: 1rem 5rem;
+        z-index: -1;
+    }
+
+    .blur-pink {
+        z-index: 11;
+    }
+
+    .connect-row {
+        padding: 3rem 2rem;
+    }
+
+    .footer {
+        padding: 4rem 0rem;
+        gap: 0rem;
+    }
+
+    .modal-dialog {
+        width: 23rem;
+    }
+
+    .modal-body {
+        padding: 20px 0px 30px 30px;
+        background-color: white;
+    }
+
+    .inputs {
+        padding: 8px 80px 8px 20px;
+        margin-bottom: 14px;
+        background-color: #f5f8fa;
+        color: #33475b;
+        border: 1px solid #cbd6e2;
+        border-radius: 3px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-brand {
+        margin-left: 3rem;
+        display: flex;
+        width: 10rem;
+    }
+
+    .ui-div {
+        margin-left: 10rem;
+    }
+
+    .ui-items {
+        gap: 10px;
+    }
+
+    .navbar-main {
+        gap: 10px;
+    }
+
+    .div-6 {
+        margin-left: auto;
+    }
+
+    .corousel-card {
+        width: 28rem;
+    }
+
+    .q-a {
+        padding: 1rem 8rem;
+        position: relative;
+        z-index: -1;
+    }
+
+    .blur-pink {
+        z-index: 11;
+    }
+
+    .connect-row {
+        padding: 3rem 5rem;
+    }
+
+    .footer {
+        padding: 4rem 0rem;
+        gap: 2rem;
+    }
+
+    .f-img {
+        position: absolute;
+        right: 1rem;
+        top: 303rem;
+        width: 169px;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        margin-left: 5rem;
+        display: flex;
+        width: auto;
+    }
+
+    .blink-parent #blink-child-1 {
+        position: absolute;
+        top: 8rem;
+        left: 17rem;
+    }
+
+    .blink-parent #blink-child-2 {
+        position: absolute;
+        top: 13rem;
+        left: 2rem;
+    }
+
+    .blink-parent #blink-child-3 {
+        position: absolute;
+        top: 15.5rem;
+        right: 14rem;
+    }
+
+    .blink-parent #blink-child-4 {
+        position: absolute;
+        top: 25rem;
+        right: 18rem;
+    }
+
+    .div-6 {
+        margin-left: 10rem;
+    }
+
+    .corousel-card {
+        width: 35rem;
+    }
+
+    .b-div {
+        padding: 0px 90px;
+        position: relative;
+    }
+
+    .q-a {
+        padding: 1rem 12rem;
+        position: relative;
+        z-index: -1;
+    }
+
+    .blur-pink {
+        z-index: 11;
+    }
+
+    .connect-row {
+        padding: 3rem 5rem;
+    }
+
+    .footer {
+        padding: 4rem 1rem;
+    }
+
+    .f-img {
+        position: absolute;
+        right: 1rem;
+        top: 310.5rem;
+        width: 169px;
+    }
+
+    .watsapp-div {
+        bottom: 100px;
+        right: 20px;
+    }
+
+    .navbar-main {
+        gap: 15px;
+    }
+
+    .navbar {
+        width: 100%;
+        padding: 0px 0px;
+        box-shadow: rgba(221, 221, 221, 0.45) 0px 0px 20px 0px;
+    }
+
+    .ui-div {
+        margin-left: 10rem;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+    .ui-div {
+        margin-left: 15rem;
+    }
+
+    .navbar-brand {
+        margin-left: 6rem;
+    }
+
+    .div-6 {
+        margin-left: 11rem;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1540px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar-main {
+        background-color: #fff;
+        gap: 15px;
+    }
+
+    .navbar {
+        padding: 0px 30px;
+        box-shadow: rgba(221, 221, 221, 0.45) 0px 0px 20px 0px;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .navbar-brand {
+        margin-left: 7rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .blink-parent #blink-child-1 {
+        position: absolute;
+        top: 8rem;
+        left: 24rem;
+    }
+
+    .blink-parent #blink-child-2 {
+        position: absolute;
+        top: 13rem;
+        left: 10rem;
+    }
+
+    .blink-parent #blink-child-3 {
+        position: absolute;
+        top: 15.5rem;
+        right: 20rem;
+    }
+
+    .blink-parent #blink-child-4 {
+        position: absolute;
+        top: 25rem;
+        right: 24rem;
+    }
+
+    .div-6 {
+        margin-top: 4rem;
+        padding: 0px 12px;
+        width: 60rem;
+        margin-left: 14rem;
+    }
+
+    .rope-1 {
+        position: absolute;
+        left: 0;
+        top: 19rem;
+        z-index: -1;
+        width: 100%;
+        max-width: 10%;
+    }
+
+    .corousel-card {
+        width: 40rem;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 65%);
+        box-shadow: rgba(204, 204, 204, 0.6) 0px 3px 10px 0px;
+    }
+
+    .corousel-row {
+        gap: 3rem;
+        display: flex;
+        justify-content: center;
+        border-radius: 8px;
+    }
+
+    .corousel-body {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        background-image: url('https://kona-digital.com/images/mapimg.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .blur-pink {
+        z-index: 11;
+    }
+
+    .q-a {
+        padding: 1rem 16rem;
+        position: relative;
+        z-index: -1;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 4rem 6rem;
+        gap: 3rem;
+    }
+
+    .f-img {
+        position: absolute;
+        right: 1rem;
+        top: 320rem;
+        width: 169px;
+    }
+
+    .watsapp-div {
+        bottom: 100px;
+        right: 20px;
+    }
+}
+
+@media (min-width: 1541px) and (max-width: 1700px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        margin-left: 15rem;
+    }
+
+    .blink-parent #blink-child-1 {
+        position: absolute;
+        top: 8rem;
+        left: 28rem;
+    }
+
+    .blink-parent #blink-child-2 {
+        position: absolute;
+        top: 13rem;
+        left: 10rem;
+    }
+
+    .blink-parent #blink-child-3 {
+        position: absolute;
+        top: 16rem;
+        right: 24rem;
+    }
+
+    .blink-parent #blink-child-4 {
+        position: absolute;
+        top: 25rem;
+        right: 26rem;
+    }
+
+    .div-6 {
+        margin-left: 18rem;
+    }
+
+    .corousel-card {
+        width: 45rem;
+    }
+
+    .q-a {
+        padding: 1rem 16rem;
+        z-index: -1;
+    }
+
+    .blur-pink {
+        z-index: 11;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 4.5rem 6rem 4rem 6rem;
+        gap: 3rem;
+    }
+
+    .f-img {
+        position: absolute;
+        right: 1rem;
+        top: 321rem;
+        width: 169px;
+    }
+
+    .watsapp-div {
+        bottom: 100px;
+        right: 20px;
+    }
+
+}
+
+@media (min-width: 1700px) and (max-width: 1900px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navbar-brand {
+        margin-left: 22rem;
+    }
+
+    .blink-parent #blink-child-1 {
+        position: absolute;
+        top: 8rem;
+        left: 28rem;
+    }
+
+    .blink-parent #blink-child-2 {
+        position: absolute;
+        top: 13rem;
+        left: 10rem;
+    }
+
+    .blink-parent #blink-child-3 {
+        position: absolute;
+        top: 16rem;
+        right: 24rem;
+    }
+
+    .blink-parent #blink-child-4 {
+        position: absolute;
+        top: 25rem;
+        right: 26rem;
+    }
+
+    .div-6 {
+        margin-left: 18rem;
+    }
+
+    .corousel-card {
+        width: 45rem;
+    }
+
+    .q-a {
+        padding: 1rem 16rem;
+        z-index: -1;
+    }
+
+    .blur-pink {
+        z-index: 11;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 4.5rem 6rem 4rem 6rem;
+        gap: 3rem;
+    }
+
+    .f-img {
+        position: absolute;
+        right: 1rem;
+        top: 321rem;
+        width: 169px;
+    }
+
+    .watsapp-div {
+        bottom: 100px;
+        right: 20px;
+    }
+
+    .ui-items {
+        gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .div-6 {
+        margin-left: 30rem;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .navbar-brand {
+        margin-left: 25rem;
+    }
+
+    .ui-items {
+        gap: 30px;
+    }
+
+    .navbar {
+        box-shadow: rgba(221, 221, 221, 0.45) 0px 0px 20px 0px;
+    }
+
+    .div-6 {
+        margin-left: 35rem;
+    }
 }

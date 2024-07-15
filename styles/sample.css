@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.img-div {
+    width: 300px;
+}
+
+.navbar {
+    /* padding: 2px; */
+}
+
+.menuitem {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+header {
+    box-shadow: rgba(221, 221, 221, 0.45) 0px 0px 20px 0px;
+}
+
+.toggle-icon {
+    display: none !important;
+}
+
+.prod-div {
+    background-image: url('../assests/productbanner.jpg');
+    background-size: contain;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* width: 100%; */
+}
+
+.prod-head {
+    background: linear-gradient(90deg, #272657 0%, #5391E4 48.1%, #272657 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 760px) {
+    .img-div {
+        position: absolute;
+        left: 0;
+        width: 220px;
+    }
+
+    .ui-items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .navbar {
+        padding: 20px 10px;
+    }
+
+    .toggle-icon {
+        display: block !important;
+    }
+}

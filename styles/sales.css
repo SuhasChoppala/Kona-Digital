@@ -1,0 +1,446 @@
+.service-info {
+    padding-left: 400px;
+}
+
+.service-info h1 {
+    font-size: 35px;
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.service-info p {
+    margin-top: 28px;
+    margin-bottom: 18px;
+}
+
+.service-btn {
+    background: linear-gradient(90deg, #4e3bbf, #a928d8);
+    display: inline-block;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+.service-btn:hover {
+    background: #000c60;
+    color: #fff;
+}
+
+.service-div {
+    background: linear-gradient(180deg, #E4E5F2 0%, #FFFFFF 100%);
+}
+
+.services-head {
+    background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
+    font-size: 50px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tag-img {
+    position: relative;
+    top: -20px;
+}
+
+.services-content {
+    padding-left: 400px;
+    padding-right: 20px;
+}
+
+.services-content h6 {
+    background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.services-content h4 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    color: #000c60;
+}
+
+.services-content h4 span {
+    color: #999;
+}
+
+.services-3-content h6 {
+    background: linear-gradient(90deg, #ECEAF8 0%, #E9C4E6 28.28%, #D2CDE2 63.13%, #EAEDFB 100%);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.services-3-content h4 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 37px;
+    color: #000c60;
+}
+
+.services-3-content h4 span {
+    color: #999;
+}
+
+.services3-img-div {
+    text-align: end;
+}
+
+.services-3-content {
+    padding-right: 400px;
+}
+
+.services-3-div {
+    margin: 200px 0px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .service-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .service-info {
+        padding-left: 0px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    .service-div img {
+        width: 400px;
+    }
+
+    .services-content {
+        padding-left: 0px;
+        padding-right: 20px;
+        text-align: start;
+    }
+
+    .services2-div img {
+        width: 400px;
+    }
+
+    .services2-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .services2-img {
+        text-align: center;
+    }
+
+    .services-content {
+        text-align: start;
+    }
+
+    .services-3-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    .services3-img-div {
+        text-align: center;
+    }
+
+    .services3-img-div img {
+        width: 400px;
+    }
+
+    .services-3-content {
+        justify-content: start;
+        padding-right: 0px;
+        text-align: start;
+    }
+
+    .f-img {
+        position: absolute;
+        top: 460rem;
+    }
+
+    .blur-pink-sales {
+        position: absolute;
+        left: 0;
+        top: 330rem;
+        z-index: 11;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) and (max-width: 767px) {
+    .service-div {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .service-info {
+        padding-left: 0px;
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    .services-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .services2-div img {
+        width: 500px;
+    }
+
+    .services2-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .services2-img {
+        text-align: center;
+    }
+
+    .services-content {
+        text-align: center;
+    }
+
+    .services-3-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .services3-img-div {
+        text-align: center;
+    }
+
+    .services3-img-div img {
+        width: 550px;
+    }
+
+    .services-3-content {
+        justify-content: center;
+        padding-right: 0px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .f-img {
+        position: absolute;
+        top: 440rem;
+    }
+
+    .blur-pink-sales {
+        position: absolute;
+        left: 0;
+        top: 330rem;
+        z-index: 11;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .service-info {
+        padding: 30px 0px 30px 30px
+    }
+
+    .service-div img {
+        width: 300px;
+        height: auto;
+    }
+
+    .services-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .services2-div img {
+        width: 500px;
+    }
+
+    .services2-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .services2-img {
+        text-align: center;
+    }
+
+    .services-content {
+        text-align: center;
+    }
+
+    .services-3-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .services3-img-div {
+        text-align: center;
+    }
+
+    .services3-img-div img {
+        width: 500px;
+    }
+
+    .services-3-content {
+        justify-content: center;
+        padding-right: 0px;
+    }
+
+    .f-img {
+        position: absolute;
+        top: 390rem;
+    }
+
+    .blur-pink-sales {
+        position: absolute;
+        left: 0;
+        top: 300rem;
+        z-index: 11;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width:1200px) {
+    .service-info {
+        padding-left: 60px;
+    }
+
+    .service-div img {
+        width: 500px;
+    }
+
+    .service-info {
+        padding-left: 150px;
+    }
+
+    .services-content {
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+
+    .services2-div img {
+        width: 500px;
+    }
+
+    .service-info {
+        padding-left: 60px;
+    }
+
+    .service-info {
+        padding-left: 150px;
+    }
+
+    .services-content {
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+
+    .services2-div img {
+        width: 500px;
+    }
+
+    .services-content h4 {
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 37px;
+        color: #000c60;
+    }
+
+    .services-3-content {
+        padding-right: 50px;
+    }
+
+    .services-3-content h4 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .services3-img-div img {
+        width: 500px;
+    }
+
+    .f-img {
+        position: absolute;
+        top: 300rem;
+    }
+
+    .blur-pink-sales {
+        position: absolute;
+        left: 0;
+        top: 210rem;
+        z-index: 11;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .service-info {
+        padding-left: 150px;
+    }
+
+    .services-content {
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+
+    .services2-div img {
+        width: 500px;
+    }
+
+    .services-3-content {
+        padding-right: 50px;
+    }
+
+    .f-img {
+        position: absolute;
+        top: 300rem;
+    }
+
+    .blur-pink-sales {
+        position: absolute;
+        left: 0;
+        top: 220rem;
+        z-index: 11;
+    }
+
+}
+
+@media only screen and (min-width: 1800px) {
+    .f-img {
+        position: absolute;
+        top: 313rem;
+    }
+
+    .blur-pink-sales {
+        position: absolute;
+        left: 0;
+        top: 230rem;
+    }
+}
