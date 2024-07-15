@@ -208,9 +208,17 @@
     }
 
     .f-img {
-        position: absolute;
-        right: 1rem;
-        top: 365rem;
+        display: none;
+    }
+
+    .footer .col .f-list {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer {
+        padding: 30px 0px;
     }
 }
 
