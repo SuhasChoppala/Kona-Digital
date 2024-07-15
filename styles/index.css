@@ -4,10 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
-    z-index: 11;
-}
-
 .corousel-1 {
     display: block;
     /* Displayed by default */
