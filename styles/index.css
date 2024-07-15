@@ -488,6 +488,8 @@
     cursor: pointer;
 }
 
+
+
 #bt-1 {
     background-color: #ccc;
     border: none;
@@ -498,6 +500,26 @@
 }
 
 #bt-1.active {
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#bt-1,
+#bt-2,
+#bt-3 {
+    background-color: #ccc;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#bt-1.active,
+#bt-2.active,
+#bt-3.active {
     background-color: #000;
     width: 10px;
     height: 10px;
@@ -849,6 +871,17 @@
     }
 }
 
+.custom-popover .popover-header {
+    background: linear-gradient(-225deg, #a429d7 55%, #f58220);
+    color: white;
+}
+
+.custom-popover .popover-body {
+    font-size: 24px;
+    padding: 15px;
+    /* Adjust the padding to suit mobile view */
+}
+
 /* media queries */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -891,6 +924,7 @@
 
     .div-1 {
         padding: 20px;
+        padding-top: 120px;
     }
 
     .div-1 .head {
@@ -1162,11 +1196,7 @@
     }
 
     .f-img {
-        position: absolute;
-        right: 1rem;
-        top: 480rem;
-        top: 490rem;
-        width: 169px;
+        display: none;
     }
 
     .footer {
@@ -1192,26 +1222,26 @@
 
     .blink-parent #blink-child-1 {
         position: absolute;
-        top: 1rem;
+        top: 8rem;
         left: 6rem;
     }
 
     .blink-parent #blink-child-2 {
         position: absolute;
-        top: 8rem;
-        left: 3rem;
+        top: 14rem;
+        left: 2rem;
     }
 
     .blink-parent #blink-child-3 {
         position: absolute;
-        top: 13rem;
-        right: 5rem;
+        top: 27rem;
+        right: 4rem;
     }
 
     .blink-parent #blink-child-4 {
         position: absolute;
-        top: 20rem;
-        right: 6rem;
+        top: 19rem;
+        right: 4rem;
     }
 
     .connect-row {
@@ -1301,7 +1331,7 @@
     .corousel-2 .corousel-card {
         box-shadow: 0 3px 10px #cccccc99;
         background: #ffffffa6;
-        -webkit-tap-highlight-color: transparent
+        -webkit-tap-highlight-color: transparent;
     }
 
     .corousel-2 .corousel-body {
@@ -1322,6 +1352,20 @@
 
     .submit-btn {
         padding: 10px 20px;
+    }
+
+    .corousel-2 .corousel-card {
+        background-image: url('../assests/mapimg.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .corousel-2 .corousel-body {
+        padding: 20px 0px;
     }
 }
 
