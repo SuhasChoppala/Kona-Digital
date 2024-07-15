@@ -335,6 +335,10 @@
         color: #fff;
     }
 
+    .navbar {
+        z-index: 11;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

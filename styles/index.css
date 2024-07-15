@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar {
+    z-index: 11;
+}
+
 .corousel-1 {
     display: block;
     /* Displayed by default */
@@ -900,6 +904,12 @@
 
     .navbar .navbar-toggler {
         margin-left: -14px;
+    }
+
+    .navbar .navbar-nav {
+        padding-bottom: 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
     }
 
     .navbar-brand {
