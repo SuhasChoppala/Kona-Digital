@@ -205,7 +205,7 @@
     .blur-1-credit {
         position: absolute;
         top: 16%;
-        left: 5%;
+        left: 0%;
         width: 600px;
     }
 
@@ -213,7 +213,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 80px 40px 30px 70px;
+        padding: 80px 40px 30px 40px;
     }
 
     .monitor-info {
@@ -271,7 +271,7 @@
 
     .blur-pink-ed {
         position: absolute;
-        top: 165rem;
+        top: 150rem;
         left: 0;
         z-index: 11;
     }
