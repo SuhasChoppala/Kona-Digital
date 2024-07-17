@@ -152,8 +152,74 @@
                 <h3>Keep your school & college running with kona LMS</h3>
                 <p>LMS is a great student learning tool. LMS can boost students' performance and improve parents'
                     impressions on school.Kona LMS is the most user friendly LMS system for schools and colleges</p>
-                <button class="ed-bt-1">Know More</button>
-                <button class="ed-bt-2">Ask for Free Demo</button>
+                <!-- <button class="ed-bt-1">Know More</button> -->
+                <button type="button" class="btn ed-bt-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Know More
+                </button>
+                <!-- Modal -->
+                <div class="modal fade AskforFreeDemoLMS" id="exampleModal" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="width: 80%;">
+                            <div class="modal-header imgForButton">
+                                <h1 class="modal-title fs-4 text-white " id="exampleModalLabel ">Start Now</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-start">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                    <input type="Text" class="form-control inputs" id="exampleFormControlInput1"
+                                        placeholder="Name">
+                                    <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                                    <input type="Text" class="form-control inputs" id="exampleFormControlInput1"
+                                        placeholder="Phone">
+                                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                    <input type="email" class="form-control inputs" id="exampleFormControlInput1"
+                                        placeholder="Email">
+                                    <div class="d-grid gap-2 mt-4">
+                                        <button class="btn submit-btn  imgForButton1 border-0"
+                                            type="button">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="ed-bt-2">Ask for Free Demo</button> -->
+                <button type="button" class="btn ed-bt-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Ask For Free Demo
+                </button>
+                <!-- Modal -->
+                <div class="modal fade AskforFreeDemoLMS" id="exampleModal" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content" style="width: 80%;">
+                            <div class="modal-header imgForButton">
+                                <h1 class="modal-title fs-4 text-white " id="exampleModalLabel ">Start Now</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-start">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                    <input type="Text" class="form-control inputs" id="exampleFormControlInput1"
+                                        placeholder="Name">
+                                    <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                                    <input type="Text" class="form-control inputs" id="exampleFormControlInput1"
+                                        placeholder="Phone">
+                                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                    <input type="email" class="form-control inputs" id="exampleFormControlInput1"
+                                        placeholder="Email">
+                                    <div class="d-grid gap-2 mt-4">
+                                        <button class="btn submit-btn  imgForButton1 border-0"
+                                            type="button">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-sm">
@@ -446,6 +512,11 @@
             $('[data-bs-toggle="popover"]').popover();
         });
     </script>
+    <script>$('#myModal').modal('show');</script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 

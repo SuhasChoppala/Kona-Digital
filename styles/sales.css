@@ -2,7 +2,7 @@
     padding-left: 400px;
 }
 
-.service-info h1 {
+.service-info .se-i-h1 {
     font-size: 35px;
     background: linear-gradient(90deg, #8D65E9 0%, #5391E4 48.1%, #6BCD94 100%);
     -webkit-background-clip: text;
@@ -10,7 +10,7 @@
     font-weight: 500;
 }
 
-.service-info p {
+.service-info .se-i-p {
     margin-top: 28px;
     margin-bottom: 18px;
 }

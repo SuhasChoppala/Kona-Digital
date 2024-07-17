@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+
+
 .dropdown-menu {
     z-index: 1000;
 }
@@ -25,18 +27,26 @@
     padding: 0px 180px 0px 400px;
 }
 
-.product-content h1 {
+.product-content .p-c-h1 {
     font-size: 40px;
     background: linear-gradient(90deg, #272657 0%, #5391E4 48.1%, #272657 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+.product-content .AskforFreeDemoLMS h1 {
+    color: #fff;
+}
+
+.product-content .AskforFreeDemoLMS .btn-close {
+    color: #fff;
+}
+
 .product-content p {
     margin: 40px 0px;
 }
 
-.product-content button {
+.product-content .p-c-btn {
     background: linear-gradient(90deg, #4e3bbf, #a928d8);
     display: inline-block;
     color: #fff;
@@ -45,7 +55,7 @@
     border-radius: 8px;
 }
 
-.product-content button:hover {
+.product-content .p-c-btn:hover {
     background: #000c60;
     color: #fff;
 }
@@ -121,6 +131,10 @@
     position: absolute;
     right: 1rem;
     top: 223rem;
+}
+
+.AskforFreeDemoLMS .modal-header h1 {
+    color: #fff;
 }
 
 
