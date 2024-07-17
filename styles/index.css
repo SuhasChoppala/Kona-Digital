@@ -768,6 +768,18 @@
     color: white;
 }
 
+#startNowButton {
+    padding: 10px 24px;
+    background: linear-gradient(to right, rgb(84, 58, 193), rgb(164, 41, 215));
+    color: white;
+    margin-top: 6px;
+}
+
+#startNowButton:hover {
+    background: rgb(0, 12, 96);
+    color: white;
+}
+
 .connect-p {
     margin-top: 2rem;
 }

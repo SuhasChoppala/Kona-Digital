@@ -76,12 +76,12 @@
                         <li class="nav-item"><a href="" class="nav-link">Resources</a></li>
 
                         <li class="ms-1 nav-item">
-                            <button type="button" class="btn launch-btn" data-bs-toggle="modal"
+                            <!-- <button type="button" class="btn launch-btn" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
                                 Start Now
                             </button>
 
-                            <!-- Modal -->
+                            Modal
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                                 aria-hidden="true">
                                 <div class="modal-dialog">
@@ -91,6 +91,41 @@
                                             </h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                 aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body text-start">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                                <input type="Text" class="form-control inputs"
+                                                    id="exampleFormControlInput1" placeholder="Name">
+                                                <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                                                <input type="Text" class="form-control inputs"
+                                                    id="exampleFormControlInput1" placeholder="Phone">
+                                                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                                <input type="email" class="form-control inputs"
+                                                    id="exampleFormControlInput1" placeholder="Email">
+                                                <div class="d-grid gap-2 mt-4">
+                                                    <button class="btn submit-btn imgForButton1 border-0"
+                                                        type="button">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <button type="button" class="btn" data-toggle="modal" data-target="#myModal"
+                                id="startNowButton">Start
+                                Now</button>
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content" style="width: 80%;">
+                                        <div class="modal-header imgForButton">
+                                            <h1 class="modal-title" id="exampleModalLabel">Start Now</h1>
+                                            <button type="button" class="btn-close" data-dismiss="modal"
+                                                aria-label="Close">
+
+                                            </button>
                                         </div>
                                         <div class="modal-body text-start">
                                             <div class="mb-3">
